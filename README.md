@@ -27,10 +27,6 @@ For photo report OCR you also need Tesseract installed locally
 6. In ~2–3 minutes you get a **live public URL** like
    `https://ai-doctor.streamlit.app` 🎉
 
-### Optional: real GPT-powered chat
-In the app sidebar, open **AI mode** and paste an **OpenAI API key**.
-Without a key, the built-in medical knowledge base answers everything offline.
-
 ### Notes
 - The SQLite database file lives with the app. On the free cloud tier the app
   may sleep when idle and the DB file can reset on redeploy — fine for personal use.
